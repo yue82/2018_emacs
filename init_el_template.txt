@@ -1,0 +1,12 @@
+;; neotree
+(global-unset-key (kbd "C-M-t"))
+(global-set-key (kbd "C-M-t") 'neotree-toggle)
+(setq neo-show-hidden-files t)
+(setq neo-create-file-auto-open t)
+(setq neo-persist-show t)
+(setq neo-keymap-style 'concise)
+(setq neo-smart-open t)
+
+;; smartparens
+(require 'smartparens-config)
+(smartparens-global-mode t)
