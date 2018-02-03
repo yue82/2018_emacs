@@ -10,9 +10,8 @@
 ;; インストールするパッケージ
 (defvar my/favorite-packages
   '(
-    auto-install
     anzu
-    undo-tree 
+    undo-tree
     )
   )
 
