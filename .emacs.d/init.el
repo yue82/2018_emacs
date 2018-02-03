@@ -59,9 +59,3 @@
 (require 'undo-tree)
 (global-undo-tree-mode t)
 (global-set-key (kbd "M-/") 'undo-tree-redo)
-
-;;指定行ジャンプ
-(define-key global-map (kbd "M-n") 'goto-line)
-
-;;全置換
-(define-key global-map (kbd "C-c R") 'replace-string)
